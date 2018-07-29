@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weed Crusher</string>
+    <string name="app_name_menu">weed crusher</string>
+    <string name="app_menu_newgame">Start</string>
+    <string name="app_menu_highscores">Highscores</string>
+    <string name="app_menu_about">About</string>
+    <string name="about_team_name">Densely Demon Brutally Tough</string>
+    <string name="about_presents">by</string>
+    <string name="about_developers">Ivan Janković, Lukáš Benda, Jan Žalský, Tomáš Ciboch</string>
+    <string name="about_developers_intro">developed by:</string>
+    <string name="highscores">Highscores</string>
+    
+    <color name="headers">#552200</color>
+    <color name="buton_caption">#BBBBBB</color>
+
+    <style name="button">
+        <item name="android:layout_marginRight">40dip</item>
+        <item name="android:layout_marginLeft">40dip</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">@color/buton_caption</item>
+    </style>
+
+
+
+
+</resources>

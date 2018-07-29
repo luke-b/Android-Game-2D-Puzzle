@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:background="@drawable/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo" android:layout_gravity="center_horizontal" android:paddingBottom="20dip"/>
+
+    <TextView
+        android:textSize="24dip"
+        android:paddingTop="2dip"
+        android:paddingBottom="2dip"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_presents" />
+    
+    <TextView
+        android:textSize="40dip"
+        android:paddingBottom="30dip"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_team_name" android:textColor="@color/headers"/>
+    
+    
+    
+    <TextView
+        android:textSize="20dip"
+        android:paddingTop="2dip"
+        android:paddingBottom="2dip"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_developers_intro" />
+    <TextView
+        android:textSize="20dip"
+        android:paddingTop="2dip"
+        android:paddingBottom="2dip"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_developers" android:textColor="@color/headers"/>
+    
+    
+</LinearLayout>
